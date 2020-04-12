@@ -15,13 +15,9 @@ The if clause was needed, because not all entries had the "entities" field.
 
 ## Reduce impl.
 ```javascript
-db.tweets.mapReduce(
-    map,
-    reduce, 
-    {
-        out:"map_reduce_result"
-        } 
-)
+reduce = function(key, values){
+    return Array.sum(values);
+}
 ```
 Save the output in a new collection, so it can be queried later.
 
