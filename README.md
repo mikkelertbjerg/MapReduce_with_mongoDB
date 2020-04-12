@@ -1,5 +1,5 @@
 # MapReduce with mongoDB
-__Task:__ Find the top 10 hashtags use in the given tweets, the dataset can be found [here](https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/tweets.zip).
+__Task:__ Find the top 10 hashtags used in the given tweets, the dataset can be found [here](https://github.com/ozlerhakan/mongodb-json-files/blob/master/datasets/tweets.zip).
 ## Map impl.
 ```javascript
 map = function(){
