@@ -47,5 +47,7 @@ db.map_reduce_result.find().sort({value: -1}).limit(10);
 
 ## Group members
 Mikkel Wexøe Ertbjerg - cph-me209@cphbusiness.dk
+<br>
 Nikolai Christiansen - cph-nc103@cphbusiness.dk
+<br>
 Nikolaj Dyrring - cph-nj183@cphbusiness.dk
