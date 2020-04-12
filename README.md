@@ -19,12 +19,12 @@ reduce = function(key, values){
     return Array.sum(values);
 }
 ```
-Save the output in a new collection, so it can be queried later.
 
 ## Mapreduce
 ```javascript
 db.tweet.mapReduce(map,reduce,{out: "map_reduce_result"})
 ```
+Save the output in a new collection, so it can be queried later.
 
 ## Sorting
 ```javascript
