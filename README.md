@@ -44,3 +44,8 @@ db.map_reduce_result.find().sort({value: -1}).limit(10);
 { "_id" : "javascript", "value" : 14 }
 { "_id" : "RedBizUK", "value" : 12 }
 ```
+
+## Group members
+Mikkel Wexøe Ertbjerg - cph-me209@cphbusiness.dk
+Nikolai Christiansen - cph-nc103@cphbusiness.dk
+Nikolaj Dyrring - cph-nj183@cphbusiness.dk
